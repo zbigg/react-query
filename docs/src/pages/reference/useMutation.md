@@ -28,11 +28,21 @@ const {
   meta,
 })
 
+// or using the object syntax
+
+const mutation = useMutation({
+  mutationKey,
+  mutationFn,
+  // ...
+})
+
 mutate(variables, {
   onError,
   onSettled,
   onSuccess,
 })
+
+
 ```
 
 **Options**
